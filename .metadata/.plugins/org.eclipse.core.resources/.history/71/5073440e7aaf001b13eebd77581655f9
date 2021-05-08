@@ -1,0 +1,19 @@
+package oopIntro;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Products product1 = new Products();
+		product1.id=1;
+		product1.name="Lenovo V14";
+		product1.unitPrice=10000;
+		product1.detail="16GB Ram";
+		
+		Products[] products = {};
+		System.out.println(products.length);
+
+	}
+
+}

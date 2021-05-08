@@ -1,0 +1,21 @@
+package oopOdev;
+
+public class AllCourses {
+
+	String name;
+	int id;
+	String info;
+	
+	public void AllCourses()
+	{
+		System.out.println("Varsayýlan yapýcý metod çalýþtý.");
+	}
+	
+	public void AllCourses(String name,int id,String info)
+	{
+		this.id;
+		this.name;
+		this.info;
+		System.out.println(name+" : Kursu oluþturuldu.");
+	}
+}

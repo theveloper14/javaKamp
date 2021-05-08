@@ -1,0 +1,51 @@
+package oopIntro;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Products product =new Products(0,"Lenovo Air",12000,"16GB Ram");//Arka tarafta ilgili yapýcý metod çalýþacak.
+		
+		Products product1 = new Products(); //referans oluþturma 
+		product1.id=1;
+		product1.name="Lenovo V14";
+		product1.unitPrice=10000;
+		product1.detail="16GB Ram";
+		
+		Products product2 = new Products();
+		product2.id=2;
+		product2.name="Lenovo V15";
+		product2.unitPrice=11000;
+		product2.detail="32GB Ram";
+		
+		Products product3 = new Products();
+		product3.id=3;
+		product3.name="Hp 5";
+		product3.unitPrice=10000;
+		product3.detail="8GB Ram";
+		Products[] products = {product1,product2,product3};
+		
+		for(Products product : products) {
+			System.out.println(product.name );
+		}
+		System.out.println(products.length);
+		
+		Category category1 = new Category();
+		category1.id=1;
+		category1.name="Bilgisayar";
+		
+		Category category2 = new Category();
+		category2.id=2;
+		category2.name="Ev/Bahçe";
+		
+		Category[] categories = {category1,category2};
+		
+		for(Category category : categories) {
+			System.out.println(category.name);
+			
+		}
+
+	}
+
+}

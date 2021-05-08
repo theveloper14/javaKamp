@@ -1,0 +1,9 @@
+package oopIntro;
+
+public class ProductManager {
+
+	//metod 
+	public void addToCard() {
+		System.out.println("Sepete ekleme kodu çaðrýldý");
+	}
+}

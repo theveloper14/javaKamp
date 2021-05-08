@@ -1,0 +1,9 @@
+package oopOdev;
+
+public class AllCourses {
+
+	String name;
+	int id;
+	String info;
+	
+}

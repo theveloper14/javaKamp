@@ -1,0 +1,29 @@
+package oopIntro;
+
+public class Products {
+	
+	public Products()
+	{
+		System.out.println("Ben çalýþtým");
+	}	
+	
+	public Products (int id,String name,double unitPrice,String detail)
+	{
+		this();
+		this.id=id;
+		this.name=name;
+		this.unitPrice=unitPrice;
+		this.detail=detail;
+		
+		System.out.println("2. yapýcý metod 'Ben çalýþtým'");
+	}
+	
+	
+	int id;
+	String name;
+	double unitPrice;
+	String detail;
+	
+	
+
+}

@@ -1,0 +1,9 @@
+package oopIntro;
+
+public class ProductManager {
+
+	//metod 
+	public void addToCart() {
+		System.out.println("Sepete ekleme kodu çaðrýldý");
+	}
+}

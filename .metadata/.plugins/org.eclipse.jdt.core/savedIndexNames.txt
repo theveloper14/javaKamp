@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Merve Taðcý\Desktop\javakamp\.metadata\.plugins\org.eclipse.jdt.core
+929052880.index
+278804527.index
+380197650.index
