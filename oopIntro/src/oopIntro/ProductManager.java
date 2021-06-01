@@ -4,6 +4,6 @@ public class ProductManager {
 
 	//metod 
 	public void addToCart(Products product) {
-		System.out.println("Sepete ekleme kodu çaðrýldý:" +" "+ product.name);
+		System.out.println("Sepete ekleme kodu çaðrýldý:" +" "+ product.getName());
 	}
 }
